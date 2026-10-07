@@ -1,5 +1,11 @@
 # Win11Debloat
 
+[简体中文使用说明](README.zh-CN.md) · [English](README.md)
+
+This fork includes a complete Simplified Chinese GUI translation. See the [Chinese guide](README.zh-CN.md) to enable it and review its scope and safety notes.
+
+> **For the Chinese build, download this branch with Code → Download ZIP and run its local `Run.bat`, or launch `Win11Debloat.ps1 -Language zh-CN` with Windows PowerShell 5.1. The upstream quick-start command, `Scripts/Get.ps1`, and upstream release links below download the upstream project and may not include this translation. CLI prompts and diagnostic logs remain in English.**
+
 [![GitHub Release](https://img.shields.io/github/v/release/Raphire/Win11Debloat?style=for-the-badge&label=Latest%20release)](https://github.com/Raphire/Win11Debloat/releases/latest)
 [![Join the Discussion](https://img.shields.io/badge/Join-the%20Discussion-2D9F2D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphire/Win11Debloat/discussions)
 [![Static Badge](https://img.shields.io/badge/Documentation-_?style=for-the-badge&logo=bookstack&color=grey)](https://github.com/Raphire/Win11Debloat/wiki/)
@@ -173,3 +179,4 @@ We welcome contributions of all kinds! Please see our [Contributing Guidelines](
 ## License
 
 Win11Debloat is licensed under the MIT license. See the LICENSE file for more information.
+

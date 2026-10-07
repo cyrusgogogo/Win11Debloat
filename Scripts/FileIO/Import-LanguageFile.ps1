@@ -135,6 +135,8 @@ function Get-PluralCategory {
     $languagePrefix = ($LanguageCode -split '-')[0].ToLowerInvariant()
 
     switch ($languagePrefix) {
+        # Chinese has no grammatical singular/plural distinction (CLDR: other only).
+        'zh' { return 'other' }
         # Portuguese CLDR rule: 'one' for 0 and 1, 'many' for positive multiples
         # of 1,000,000, and 'other' for every remaining count.
         'pt' {
@@ -477,3 +479,4 @@ function ConvertTo-LocalizedXaml {
 
     return $result
 }
+
